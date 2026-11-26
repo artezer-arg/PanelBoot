@@ -1,0 +1,30 @@
+# Node/React
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+backend/wwwroot/
+backend/publish/
+
+# .NET / C#
+bin/
+obj/
+.vs/
+*.user
+appsettings.Development.json
+
+# Local Connection Configuration (sensitive data)
+connection.json
+plc-recipe.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated print simulation files
+backend/publish/PrintedLabels/
+PrintedLabels/
+# Nested publish outputs
+backend/publish/publish/
+scratch/
